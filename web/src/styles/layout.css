@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+button:active {
+  outline:none;
+}
 /*
 blockquote {
   font-family: monospace;

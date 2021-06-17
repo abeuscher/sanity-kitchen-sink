@@ -3,7 +3,7 @@ import React from "react";
 import CTALink from "./CTALink";
 
 const Header = ({ showNav, siteTitle, scrolled, navMenuItems = [], textWhite = true }) => {
-  let headerClass = "fixed w-full z-30 top-0 text-white";
+  let headerClass = "fixed w-full z-40 top-0 text-white";
   headerClass += scrolled ? " bg-white shadow" : "";
 
   let navActionClass =
